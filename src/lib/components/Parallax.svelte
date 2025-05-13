@@ -99,7 +99,7 @@
     background-size: auto 100vh;
     background-position-x: center;
 
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
   }
 
   #parallax .sky {
