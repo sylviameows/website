@@ -27,9 +27,10 @@
   <a href="/" class="home">sylviameo.ws</a>
   <button bind:this={button} onclick={nav}>{char}</button>
   <div bind:this={menu} style="transform: scale(0);" class="menu">
-    <a href="/projects/arcator" class="home" onclick={nav}>arcator</a>
-    <a href="/projects/amayi" class="home" onclick={nav}>amayi</a>
-    <a href="/projects/flask" class="home" onclick={nav}>flask</a>
+      <a href="/projects/jester" class="home" onclick={nav}>jester</a>
+      <a href="/projects/arcator" class="home" onclick={nav}>arcator</a>
+      <a href="/projects/amayi" class="home" onclick={nav}>amayi</a>
+      <a href="/projects/flask" class="home" onclick={nav}>flask</a>
   </div>
 </nav>
 
